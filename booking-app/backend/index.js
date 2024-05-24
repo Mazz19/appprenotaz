@@ -108,5 +108,5 @@ app.delete('/api/admin/bookings/:id', authenticateAdmin, async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
+  console.log(`Server running on http://localhost:3000`);
 });
